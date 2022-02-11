@@ -21,3 +21,8 @@ jobs:
         with:
           args: >
             -Dsonar.verbose=true
+            -Dsonar.projectKey=FirstCLI_GitHub_Action
+            -Dsonar.projectName=FirstCLI_GitHub_Action
+            -Dsonar.projectVersion=1.0
+            -Dsonar.sources= src/javascript,src/python
+            -Dsonar.sourceEncoding=UTF-8
