@@ -29,5 +29,7 @@ if (str == null && str.length == 0) {
   console.log("String is empty");
 }
 
-
+if (str1 == null && str1.length == 0) {
+  console.log("String1 is empty");
+}
 
