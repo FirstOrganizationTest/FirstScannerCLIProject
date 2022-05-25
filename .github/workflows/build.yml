@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main # or the name of your main branch
+      - feature1
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
